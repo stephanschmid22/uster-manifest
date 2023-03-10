@@ -1,0 +1,93 @@
+{
+  "viewingHint" : "paged",
+  "attribution" : "e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives",
+  "service" : [ ],
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+  "structures" : [ ],
+  "sequences" : [ {
+    "canvases" : [ {
+      "height" : 2647,
+      "width" : 4072,
+      "images" : [ {
+        "resource" : {
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116726"
+          },
+          "format" : "image/jpeg",
+          "height" : 650,
+          "width" : 1000,
+          "@id" : "https://www.e-manuscripta.ch/download/webcache/1000/3116726",
+          "@type" : "dctypes:Image"
+        },
+        "on" : "https://www.e-manuscripta.ch/i3f/v20/3116725/canvas/3116726",
+        "motivation" : "sc:painting",
+        "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116725/annotation/3116726",
+        "@type" : "oa:Annotation"
+      } ],
+      "label" : "[1]",
+      "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116725/canvas/3116726",
+      "@type" : "sc:Canvas"
+    } ],
+    "viewingHint" : "paged",
+    "startCanvas" : "https://www.e-manuscripta.ch/i3f/v20/3116725/canvas/3116726",
+    "viewingDirection" : "left-to-right",
+    "label" : "Current Page Order",
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116725/sequence/normal",
+    "@type" : "sc:Sequence"
+  } ],
+  "label" : "[Uster]",
+  "thumbnail" : {
+    "width" : 304,
+    "height" : 197,
+    "@id" : "https://www.e-manuscripta.ch/i3f/v21/3116726/full/304/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg"
+  },
+  "logo" : {
+    "@id" : "https://www.e-manuscripta.ch/domainimage/logo.svg",
+    "service" : {
+      "profile" : "http://iiif.io/api/image/2/level2.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://www.zb.uzh.ch"
+    }
+  },
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "metadata" : [ {
+    "value" : "[Uster]",
+    "label" : "Titel"
+  }, {
+    "value" : "Burg zu Uster, die bis 1828 erbaute Reformierte Kirche Uster von Süd her, sowie Reformierte Kirche und Burg Uster",
+    "label" : "Beschreibung"
+  }, {
+    "value" : "Keller, Heinrich [1778-1862]",
+    "label" : "Autor, Beteiligte"
+  }, {
+    "value" : "[Schweiz], [zwischen 1828 und 1862?]",
+    "label" : "Entstehung"
+  }, {
+    "value" : "3 Zeichnungen : Tinte, Aquarell, Bleistift ; 7,4 x 12,5 cm",
+    "label" : "Umfang"
+  }, {
+    "value" : "Zentralbibliothek Zürich, PAS 547",
+    "label" : "Besitzende Institution"
+  }, {
+    "value" : "2.6.2021",
+    "label" : "Online seit"
+  }, {
+    "value" : "Reformierte Kirche Uster (Uster)   / Uster",
+    "label" : "Schlagwort"
+  }, {
+    "value" : "https://doi.org/10.7891/e-manuscripta-108662",
+    "label" : "DOI"
+  } ],
+  "@id" : "https://stephanschmid22.github.io/uster-manifest/manifests/uster-manifest.json",
+  "@type" : "sc:Manifest",
+  "seeAlso" : {
+    "format" : "application/xml",
+    "@id" : "https://www.e-manuscripta.ch/oai?verb=GetRecord&metadataPrefix=mets&identifier=3116725",
+    "label" : "METS"
+  }
+}
