@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://stephanschmid22.github.io/uster-manifest/manifests/uster-manifest.json",
     "label" : "[Uster]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://stephanschmid22.github.io/uster-manifest/manifests/uster2-manifest.json",
+    "label" : "Kirche & Burg zu Uster"
   } ]
 }
