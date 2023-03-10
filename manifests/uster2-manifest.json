@@ -1,0 +1,93 @@
+{
+  "viewingHint" : "paged",
+  "attribution" : "e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives",
+  "service" : [ ],
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+  "structures" : [ ],
+  "sequences" : [ {
+    "canvases" : [ {
+      "height" : 3799,
+      "width" : 5884,
+      "images" : [ {
+        "resource" : {
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116748"
+          },
+          "format" : "image/jpeg",
+          "height" : 645,
+          "width" : 1000,
+          "@id" : "https://www.e-manuscripta.ch/download/webcache/1000/3116748",
+          "@type" : "dctypes:Image"
+        },
+        "on" : "https://www.e-manuscripta.ch/i3f/v20/3116747/canvas/3116748",
+        "motivation" : "sc:painting",
+        "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116747/annotation/3116748",
+        "@type" : "oa:Annotation"
+      } ],
+      "label" : "[1]",
+      "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116747/canvas/3116748",
+      "@type" : "sc:Canvas"
+    } ],
+    "viewingHint" : "paged",
+    "startCanvas" : "https://www.e-manuscripta.ch/i3f/v20/3116747/canvas/3116748",
+    "viewingDirection" : "left-to-right",
+    "label" : "Current Page Order",
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://www.e-manuscripta.ch/i3f/v20/3116747/sequence/normal",
+    "@type" : "sc:Sequence"
+  } ],
+  "label" : "Kirche & Burg zu Uster",
+  "thumbnail" : {
+    "width" : 304,
+    "height" : 196,
+    "@id" : "https://www.e-manuscripta.ch/i3f/v21/3116748/full/304/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg"
+  },
+  "logo" : {
+    "@id" : "https://www.e-manuscripta.ch/domainimage/logo.svg",
+    "service" : {
+      "profile" : "http://iiif.io/api/image/2/level2.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://www.zb.uzh.ch"
+    }
+  },
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "metadata" : [ {
+    "value" : "Kirche & Burg zu Uster : 3. Apr. 1814",
+    "label" : "Titel"
+  }, {
+    "value" : "Ansicht der Reformierten Kirche Uster, die 1823 abgebrochen wurde, im Hintergrund die Burg Uster",
+    "label" : "Beschreibung"
+  }, {
+    "value" : "Keller, Heinrich [1778-1862]",
+    "label" : "Autor, Beteiligte"
+  }, {
+    "value" : "[Schweiz], 1814",
+    "label" : "Entstehung"
+  }, {
+    "value" : "1 Zeichnung : Aquarell, Tinte ; 10,1 x 17,6 cm",
+    "label" : "Umfang"
+  }, {
+    "value" : "Zentralbibliothek Zürich, PAS 547",
+    "label" : "Besitzende Institution"
+  }, {
+    "value" : "3.6.2021",
+    "label" : "Online seit"
+  }, {
+    "value" : "Alte Kirche Uster (Uster)   / Uster",
+    "label" : "Schlagwort"
+  }, {
+    "value" : "https://doi.org/10.7891/e-manuscripta-108667",
+    "label" : "DOI"
+  } ],
+  "@id" : "https://stephanschmid22.github.io/uster-manifest/manifests/uster2-manifest.json",
+  "@type" : "sc:Manifest",
+  "seeAlso" : {
+    "format" : "application/xml",
+    "@id" : "https://www.e-manuscripta.ch/oai?verb=GetRecord&metadataPrefix=mets&identifier=3116747",
+    "label" : "METS"
+  }
+}
